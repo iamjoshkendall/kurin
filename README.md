@@ -52,7 +52,7 @@ class ExampleTableSeeder extends Seeder
 
 Kurīn expects two parameters, the path to the CSV file and the array containing the desired key strings. The keys need to be in the order you want the CSV matched to.
 
-Kurīn however supports a third optional parameter, an array of strings that will be appended to the array as keys after the CSV fields and have their value set to [Carbon](http:/github.com/briannesbitt/Carbon) timestamps.
+Kurīn however supports a third optional parameter, an array of strings that will be appended to the array as keys after the CSV fields and have their value set to [Carbon](http://github.com/briannesbitt/Carbon) timestamps.
 
 ##### Carbon Example
 
