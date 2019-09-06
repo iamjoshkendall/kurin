@@ -1,0 +1,39 @@
+{
+  "name": "iamjoshkendall/kurin",
+  "description": "A simple library to load and clean your CSV file into PHP arrays with named keys.",
+  "keywords": [
+    "arrays",
+    "csv",
+    "laravel",
+    "database"
+  ],
+  "homepage": "https://github.com/iamjoshkendall/kurin",
+  "support": {
+    "issues": "https://github.com/iamjoshkendall/kurin/issues",
+    "source": "https://github.com/iamjoshkendall/kurin"
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [{
+    "name": "Josh Kendall",
+    "email": "info@joshuakendall.com"
+  }],
+  "require": {
+    "php": "^7.2",
+    "illuminate/support": "^6.0",
+    "nesbot/carbon": "^2.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "IAmJoshKendall\\": "lib"
+    },
+    "files": [
+      "lib/Kurin.php"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
