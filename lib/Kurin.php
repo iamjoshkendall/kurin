@@ -28,7 +28,7 @@ class Kurin
             $values = fgetcsv($file);
 
             for ($i = 0; $i < count($carbon); $i++) {
-                $named_keys[] = $carbon[i];
+                $named_keys[] = $carbon[$i];
                 $values[] = Carbon::now();
             }
 
