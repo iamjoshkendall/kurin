@@ -24,16 +24,14 @@ class Kurin
         $file = fopen($file, 'r');
 
         while (!feof($file)) {
-            $named_keys = $keys;
             $values = fgetcsv($file);
 
             for ($i = 0; $i < count($carbon); $i++) {
-                $named_keys[] = $carbon[$i];
                 $values[] = Carbon::now();
             }
 
-            if ((is_array($values) && is_array($named_keys)) && (count($values) == count($named_keys))) {
-                $rows[] = array_combine($named_keys, $values);
+            if ((is_array($values) && is_array($keys)) && (count($values) == count($keys))) {
+                $rows[] = array_combine($keys, $values);
             }
         }
 
