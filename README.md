@@ -8,7 +8,7 @@ A simple library to load and clean your CSV file into PHP arrays with named keys
 
 Kurīn can be installed with composer.
 
-`composer require iamjoshkendall/kurin`
+`composer require jtkendall/kurin`
 
 
 ### Usage
@@ -19,7 +19,7 @@ Once Kurīn has been added to Laravel you can use it anywhere you want to conver
 ##### Basic Example
 
 ```php
-use IAmJoshKendall\Kurin;
+use jtkendall\Kurin;
 
 $results = Kurin::fromCSV('data/example.csv', ['id', 'name']);
 ```
@@ -29,7 +29,7 @@ $results = Kurin::fromCSV('data/example.csv', ['id', 'name']);
 
 ```php
 use Illuminate\Database\Seeder;
-use IAmJoshKendall\Kurin;
+use jtkendall\Kurin;
 
 class ExampleTableSeeder extends Seeder
 {
@@ -57,7 +57,7 @@ Kurīn however supports a third optional parameter, an array of strings that wil
 ##### Carbon Example
 
 ```php
-use IAmJoshKendall\Kurin;
+use jtkendall\Kurin;
 
 $results = Kurin::fromCSV('data/example.csv', ['id', 'name'], ['created_at', 'updated_at']);
 ```

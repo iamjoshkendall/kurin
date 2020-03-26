@@ -1,6 +1,6 @@
 <?php
 
-namespace IAmJoshKendall;
+namespace jtkendall;
 
 use \Carbon\Carbon;
 

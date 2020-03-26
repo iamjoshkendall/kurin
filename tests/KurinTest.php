@@ -1,6 +1,6 @@
 <?php
 
-use IAmJoshKendall\Kurin;
+use jtkendall\Kurin;
 use PHPUnit\Framework\TestCase;
 
 final class KurinTest extends TestCase
